@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#f8fafc"/>
+
+  <!-- Top Navigation Bar -->
+  <rect width="1200" height="64" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="80" y="14" width="36" height="36" rx="8" fill="#0f172a"/>
+  <!-- MapPin icon -->
+  <path d="M98 22 C93.6 22 90 25.6 90 30 C90 36 98 42 98 42 C98 42 106 36 106 30 C106 25.6 102.4 22 98 22 Z" fill="#ffffff"/>
+  <circle cx="98" cy="30" r="2.5" fill="#0f172a"/>
+
+  <!-- Brand text -->
+  <text x="128" y="32" font-size="16" font-weight="800" fill="#0f172a">CivicPulse</text>
+  <rect x="210" y="22" width="68" height="18" rx="4" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="218" y="34" font-size="9" font-weight="700" fill="#475569" letter-spacing="0.5">BENGALURU</text>
+  <text x="128" y="46" font-size="10.5" fill="#64748b">Citizen Reporting &amp; Escalation Gateway</text>
+
+  <!-- Identity Chip -->
+  <rect x="940" y="16" width="180" height="32" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <circle cx="958" cy="32" r="4" fill="#10b981"/>
+  <text x="970" y="36" font-size="12" fill="#64748b">Identity: <tspan font-weight="700" fill="#0f172a">Citizen #4821</tspan></text>
+
+  <!-- Navigation Underline Tabs -->
+  <text x="80" y="94" font-size="13" font-weight="700" fill="#0f172a">Raise Complaint</text>
+  <rect x="80" y="104" width="110" height="2.5" fill="#0f172a"/>
+
+  <text x="230" y="94" font-size="13" font-weight="500" fill="#64748b">Community Feed</text>
+  <text x="380" y="94" font-size="13" font-weight="500" fill="#64748b">My Complaints</text>
+  <line x1="80" y1="105" x2="1120" y2="105" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Main Container -->
+  <g transform="translate(200, 130)">
+    <!-- Form Header -->
+    <text x="0" y="24" font-size="22" font-weight="800" fill="#0f172a" letter-spacing="-0.5">Raise a Civic Complaint</text>
+    <text x="0" y="46" font-size="13" fill="#64748b">Logged anonymously as <tspan font-weight="600" fill="#334155">Citizen #4821</tspan>. Automatically scheduled for municipal escalation if unresolved.</text>
+
+    <!-- Card 1: Category Selector -->
+    <rect x="0" y="70" width="800" height="170" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="24" y="98" font-size="13" font-weight="700" fill="#0f172a">1. Select Issue Category</text>
+    <text x="24" y="116" font-size="11.5" fill="#64748b">Classifies the municipal jurisdiction and escalation officer.</text>
+    <text x="730" y="98" font-size="11" font-weight="600" fill="#ef4444">Required</text>
+
+    <!-- 4 Category Tiles -->
+    <!-- Tile 1: Garbage (Selected) -->
+    <rect x="24" y="132" width="175" height="88" rx="10" fill="#0f172a" stroke="#0f172a"/>
+    <rect x="36" y="144" width="30" height="30" rx="6" fill="#1e293b"/>
+    <text x="44" y="164" font-size="14" fill="#ffffff">🗑</text>
+    <text x="76" y="163" font-size="13" font-weight="700" fill="#ffffff">Garbage</text>
+    <text x="36" y="198" font-size="10" fill="#cbd5e1">Uncollected waste, overflow</text>
+
+    <!-- Tile 2: Potholes -->
+    <rect x="215" y="132" width="175" height="88" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="227" y="144" width="30" height="30" rx="6" fill="#f8fafc"/>
+    <text x="235" y="164" font-size="14" fill="#64748b">⚠</text>
+    <text x="267" y="163" font-size="13" font-weight="600" fill="#0f172a">Potholes</text>
+    <text x="227" y="198" font-size="10" fill="#64748b">Road damage, craters</text>
+
+    <!-- Tile 3: Streetlights -->
+    <rect x="406" y="132" width="175" height="88" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="418" y="144" width="30" height="30" rx="6" fill="#f8fafc"/>
+    <text x="426" y="164" font-size="14" fill="#64748b">💡</text>
+    <text x="458" y="163" font-size="13" font-weight="600" fill="#0f172a">Streetlights</text>
+    <text x="418" y="198" font-size="10" fill="#64748b">Non-functional luminaires</text>
+
+    <!-- Tile 4: Water Leakage -->
+    <rect x="597" y="132" width="175" height="88" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="609" y="144" width="30" height="30" rx="6" fill="#f8fafc"/>
+    <text x="617" y="164" font-size="14" fill="#64748b">💧</text>
+    <text x="649" y="163" font-size="13" font-weight="600" fill="#0f172a">Water Leakage</text>
+    <text x="609" y="198" font-size="10" fill="#64748b">Pipe bursts, supply leaks</text>
+
+    <!-- Card 2: Interactive Map -->
+    <rect x="0" y="260" width="800" height="260" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="24" y="288" font-size="13" font-weight="700" fill="#0f172a">2. Geo-Tag Location Pin</text>
+    <rect x="680" y="272" width="96" height="22" rx="4" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <text x="690" y="287" font-size="10.5" font-weight="700" fill="#065f46">✓ Pin Placed</text>
+
+    <!-- Simulated Map Canvas -->
+    <rect x="24" y="306" width="752" height="170" rx="8" fill="#e2e8f0"/>
+    <!-- Map streets -->
+    <path d="M24 350 Q 200 370 400 330 T 776 380" stroke="#cbd5e1" stroke-width="8" fill="none"/>
+    <path d="M150 306 L 250 476" stroke="#cbd5e1" stroke-width="12" fill="none"/>
+    <path d="M500 306 L 450 476" stroke="#cbd5e1" stroke-width="10" fill="none"/>
+    <rect x="360" y="340" width="140" height="80" rx="4" fill="#d1fae5" opacity="0.6"/>
+    <text x="390" y="385" font-size="11" font-weight="600" fill="#047857">Cubbon Park</text>
+
+    <!-- Location Marker -->
+    <g transform="translate(420, 360)">
+      <path d="M0 -24 C-8 -24 -14 -18 -14 -10 C-14 0 0 16 0 16 C0 16 14 0 14 -10 C14 -18 8 -24 0 -24 Z" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="0" cy="-12" r="4" fill="#ffffff"/>
+    </g>
+
+    <!-- Read-only coordinates text confirmation -->
+    <rect x="24" y="484" width="752" height="28" fill="#f8fafc" rx="4"/>
+    <text x="36" y="502" font-size="11" fill="#64748b">Tap anywhere on map to reposition marker.</text>
+    <rect x="580" y="488" width="186" height="20" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="592" y="502" font-size="10.5" font-family="monospace" font-weight="700" fill="#0f172a">Pinned: 12.9716, 77.5946</text>
+
+    <!-- Card 3: Address Details -->
+    <rect x="0" y="540" width="800" height="190" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="24" y="568" font-size="13" font-weight="700" fill="#0f172a">3. Address Details</text>
+    <text x="24" y="584" font-size="11" fill="#64748b">Select your administrative zone and provide landmark guidance.</text>
+
+    <!-- Zone Dropdown -->
+    <text x="24" y="612" font-size="11.5" font-weight="600" fill="#334155">Zone / Area *</text>
+    <rect x="24" y="622" width="752" height="34" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="36" y="643" font-size="12" font-weight="500" fill="#0f172a">Bommanahalli Zone — Koramangala, HSR Layout, BTM Layout</text>
+    <text x="755" y="643" font-size="10" fill="#64748b">▼</text>
+
+    <!-- Landmark & Street detail -->
+    <text x="24" y="675" font-size="11.5" font-weight="600" fill="#334155">Nearby Landmark</text>
+    <rect x="24" y="683" width="365" height="34" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="36" y="704" font-size="12" fill="#0f172a">Opposite Cauvery Bakery</text>
+
+    <text x="410" y="675" font-size="11.5" font-weight="600" fill="#334155">Street / Locality Detail</text>
+    <rect x="410" y="683" width="365" height="34" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="422" y="704" font-size="12" fill="#0f172a">16th Main Road, 4th Block</text>
+
+    <!-- Submit CTA Button -->
+    <rect x="620" y="746" width="180" height="42" rx="8" fill="#0f172a"/>
+    <text x="655" y="772" font-size="13" font-weight="700" fill="#ffffff">Raise Complaint →</text>
+  </g>
+</svg>

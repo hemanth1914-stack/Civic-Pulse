@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#f8fafc"/>
+
+  <!-- Top Navigation Bar -->
+  <rect width="1200" height="64" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="80" y="14" width="36" height="36" rx="8" fill="#0f172a"/>
+  <!-- MapPin icon -->
+  <path d="M98 22 C93.6 22 90 25.6 90 30 C90 36 98 42 98 42 C98 42 106 36 106 30 C106 25.6 102.4 22 98 22 Z" fill="#ffffff"/>
+  <circle cx="98" cy="30" r="2.5" fill="#0f172a"/>
+
+  <!-- Brand text -->
+  <text x="128" y="32" font-size="16" font-weight="800" fill="#0f172a">CivicPulse</text>
+  <rect x="210" y="22" width="68" height="18" rx="4" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="218" y="34" font-size="9" font-weight="700" fill="#475569" letter-spacing="0.5">BENGALURU</text>
+  <text x="128" y="46" font-size="10.5" fill="#64748b">Citizen Reporting &amp; Escalation Gateway</text>
+
+  <!-- Identity Chip -->
+  <rect x="940" y="16" width="180" height="32" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <circle cx="958" cy="32" r="4" fill="#10b981"/>
+  <text x="970" y="36" font-size="12" fill="#64748b">Identity: <tspan font-weight="700" fill="#0f172a">Citizen #4821</tspan></text>
+
+  <!-- Navigation Underline Tabs -->
+  <text x="80" y="94" font-size="13" font-weight="500" fill="#64748b">Raise Complaint</text>
+  <text x="230" y="94" font-size="13" font-weight="700" fill="#0f172a">Community Feed</text>
+  <rect x="230" y="104" width="112" height="2.5" fill="#0f172a"/>
+  <text x="380" y="94" font-size="13" font-weight="500" fill="#64748b">My Complaints</text>
+  <line x1="80" y1="105" x2="1120" y2="105" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Main Container -->
+  <g transform="translate(200, 125)">
+    <!-- Sub-header & Stats -->
+    <text x="0" y="24" font-size="22" font-weight="800" fill="#0f172a" letter-spacing="-0.5">Community Feed</text>
+    <text x="0" y="46" font-size="13" fill="#64748b">Live municipal grievance registry with active escalation tracking across Bengaluru.</text>
+    <rect x="680" y="16" width="120" height="26" rx="6" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <text x="696" y="33" font-size="11.5" font-weight="700" fill="#065f46">✓ 12 Resolved</text>
+
+    <!-- Toolbar -->
+    <rect x="0" y="65" width="800" height="46" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <!-- Search -->
+    <text x="18" y="93" font-size="14" fill="#94a3b8">🔍</text>
+    <text x="42" y="93" font-size="12.5" fill="#94a3b8">Search by area, landmark, citizen ID, keyword…</text>
+    <!-- Filter -->
+    <rect x="530" y="73" width="140" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="542" y="92" font-size="11.5" fill="#334155">All Categories ▾</text>
+    <!-- View Toggles -->
+    <rect x="680" y="73" width="108" height="30" rx="6" fill="#f1f5f9"/>
+    <rect x="683" y="76" width="50" height="24" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="696" y="92" font-size="11.5" font-weight="700" fill="#0f172a">List</text>
+    <text x="745" y="92" font-size="11.5" font-weight="500" fill="#64748b">Map</text>
+
+    <!-- Card 1: Escalated Issue -->
+    <g transform="translate(0, 125)">
+      <rect width="800" height="175" rx="12" fill="#ffffff" stroke="#fde68a" stroke-width="1.5"/>
+      <!-- Icon -->
+      <rect x="20" y="18" width="40" height="40" rx="8" fill="#fef3c7" stroke="#fde68a"/>
+      <text x="32" y="44" font-size="18">🗑</text>
+
+      <!-- Category & Reporter -->
+      <text x="72" y="34" font-size="15" font-weight="700" fill="#0f172a">Garbage Overflow</text>
+      <rect x="210" y="20" width="105" height="18" rx="4" fill="#f1f5f9" stroke="#e2e8f0"/>
+      <text x="218" y="33" font-size="10.5" font-weight="600" fill="#334155">Citizen #8412</text>
+
+      <!-- Location meta -->
+      <text x="72" y="52" font-size="11.5" font-weight="600" fill="#0f172a">📍 Bommanahalli Zone</text>
+      <text x="210" y="52" font-size="11.5" fill="#64748b">· Near Cauvery Bakery · 16th Main Road</text>
+
+      <!-- Status Badge -->
+      <rect x="685" y="18" width="95" height="24" rx="12" fill="#fef3c7" stroke="#fcd34d"/>
+      <circle cx="698" cy="30" r="3.5" fill="#d97706"/>
+      <text x="708" y="34" font-size="11.5" font-weight="700" fill="#92400e">Escalated</text>
+
+      <!-- Description -->
+      <text x="72" y="80" font-size="13" fill="#334155">Solid waste uncollected for over 5 days; spilling onto the main road causing severe sanitary hazards.</text>
+
+      <!-- Card Footer -->
+      <line x1="20" y1="120" x2="780" y2="120" stroke="#f1f5f9" stroke-width="1"/>
+      <rect x="20" y="130" width="140" height="24" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="28" y="146" font-size="10.5" font-family="monospace" fill="#64748b">GPS: 12.9352, 77.6245</text>
+
+      <!-- Social Repost Repeat2 Button (Supported State) -->
+      <rect x="520" y="127" width="115" height="32" rx="6" fill="#eef2ff" stroke="#c7d2fe"/>
+      <text x="532" y="148" font-size="13" fill="#4f46e5">🔁</text>
+      <text x="552" y="148" font-size="12" font-weight="800" fill="#3730a3">42</text>
+      <text x="572" y="147" font-size="11" font-weight="600" fill="#4f46e5">Supported</text>
+
+      <!-- View Escalation Letter Button -->
+      <rect x="645" y="127" width="135" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="657" y="147" font-size="11.5" font-weight="600" fill="#334155">📄 View Letter</text>
+    </g>
+
+    <!-- Card 2: Active Reported Issue -->
+    <g transform="translate(0, 315)">
+      <rect width="800" height="175" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+      <!-- Icon -->
+      <rect x="20" y="18" width="40" height="40" rx="8" fill="#f1f5f9" stroke="#e2e8f0"/>
+      <text x="32" y="44" font-size="18">⚠</text>
+
+      <!-- Category & Reporter -->
+      <text x="72" y="34" font-size="15" font-weight="700" fill="#0f172a">Dangerous Pothole</text>
+      <rect x="210" y="20" width="105" height="18" rx="4" fill="#f1f5f9" stroke="#e2e8f0"/>
+      <text x="218" y="33" font-size="10.5" font-weight="600" fill="#334155">Citizen #2109</text>
+
+      <!-- Location meta -->
+      <text x="72" y="52" font-size="11.5" font-weight="600" fill="#0f172a">📍 Mahadevapura Zone</text>
+      <text x="235" y="52" font-size="11.5" fill="#64748b">· Opposite Metro Pillar 122 · ORR</text>
+
+      <!-- Status Badge -->
+      <rect x="690" y="18" width="90" height="24" rx="12" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <circle cx="703" cy="30" r="3.5" fill="#64748b"/>
+      <text x="713" y="34" font-size="11.5" font-weight="600" fill="#475569">Reported</text>
+
+      <!-- Description -->
+      <text x="72" y="80" font-size="13" fill="#334155">Deep crater near the bus lane causing traffic snarls and two-wheeler skidding risks.</text>
+
+      <!-- Card Footer -->
+      <line x1="20" y1="120" x2="780" y2="120" stroke="#f1f5f9" stroke-width="1"/>
+      <rect x="20" y="130" width="140" height="24" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="28" y="146" font-size="10.5" font-family="monospace" fill="#64748b">GPS: 12.9841, 77.7291</text>
+
+      <!-- Social Repost Repeat2 Button (Unclicked State) -->
+      <rect x="495" y="127" width="115" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="507" y="148" font-size="13" fill="#64748b">🔁</text>
+      <text x="527" y="148" font-size="12" font-weight="700" fill="#334155">18</text>
+      <text x="548" y="147" font-size="11" font-weight="500" fill="#64748b">Support</text>
+
+      <!-- Simulate Escalation Button -->
+      <rect x="620" y="127" width="160" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="632" y="147" font-size="11.5" font-weight="600" fill="#b45309">⏱ Simulate Escalation</text>
+    </g>
+
+    <!-- Card 3: Resolved Issue (Sorted to Bottom) -->
+    <g transform="translate(0, 505)">
+      <rect width="800" height="175" rx="12" fill="#ffffff" stroke="#a7f3d0" stroke-width="1.5"/>
+      <!-- Icon -->
+      <rect x="20" y="18" width="40" height="40" rx="8" fill="#ecfdf5" stroke="#a7f3d0"/>
+      <text x="32" y="44" font-size="18">💡</text>
+
+      <!-- Category & Reporter -->
+      <text x="72" y="34" font-size="15" font-weight="700" fill="#0f172a">Streetlights Restored</text>
+      <rect x="235" y="20" width="105" height="18" rx="4" fill="#f1f5f9" stroke="#e2e8f0"/>
+      <text x="243" y="33" font-size="10.5" font-weight="600" fill="#334155">Citizen #4821 (You)</text>
+
+      <!-- Location meta (Green pin) -->
+      <text x="72" y="52" font-size="11.5" font-weight="600" fill="#065f46">📍 South Zone</text>
+      <text x="175" y="52" font-size="11.5" fill="#64748b">· 4th Block Jayanagar · Resolved in 48 hrs</text>
+
+      <!-- Status Badge -->
+      <rect x="690" y="18" width="90" height="24" rx="12" fill="#ecfdf5" stroke="#6ee7b7"/>
+      <text x="702" y="34" font-size="11.5" font-weight="700" fill="#047857">✓ Resolved</text>
+
+      <!-- Description -->
+      <text x="72" y="80" font-size="13" fill="#334155">Defective street lights on cross road replaced by BESCOM maintenance unit.</text>
+
+      <!-- Card Footer -->
+      <line x1="20" y1="120" x2="780" y2="120" stroke="#f1f5f9" stroke-width="1"/>
+      <rect x="20" y="130" width="140" height="24" rx="4" fill="#ecfdf5" stroke="#a7f3d0"/>
+      <text x="28" y="146" font-size="10.5" font-family="monospace" font-weight="600" fill="#065f46">GPS: 12.9298, 77.5842</text>
+
+      <!-- Resolved Indicator Tag -->
+      <rect x="680" y="127" width="100" height="32" rx="6" fill="#ecfdf5" stroke="#a7f3d0"/>
+      <text x="698" y="147" font-size="11.5" font-weight="700" fill="#065f46">✓ Resolved</text>
+    </g>
+  </g>
+</svg>

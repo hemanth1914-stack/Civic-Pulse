@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <!-- Backdrop Blur overlay -->
+  <rect width="1000" height="700" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Modal Window -->
+  <g transform="translate(150, 45)">
+    <rect width="700" height="610" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="drop-shadow(0 20px 25px rgba(0,0,0,0.2))"/>
+
+    <!-- Modal Header -->
+    <rect width="700" height="64" rx="16" fill="#ffffff"/>
+    <rect x="0" y="48" width="700" height="16" fill="#ffffff"/>
+    <line x1="0" y1="64" x2="700" y2="64" stroke="#e2e8f0" stroke-width="1"/>
+
+    <rect x="24" y="16" width="34" height="34" rx="8" fill="#0f172a"/>
+    <text x="33" y="38" font-size="16" fill="#ffffff">✉</text>
+
+    <text x="68" y="32" font-size="15" font-weight="800" fill="#0f172a">Municipal Escalation Dispatch</text>
+    <rect x="280" y="19" width="125" height="20" rx="4" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="290" y="33" font-size="10.5" font-weight="700" fill="#334155">✨ Gemini 2.5 Flash</text>
+    <text x="68" y="49" font-size="11" fill="#64748b">Automated legal-civic dispatch for Garbage · Bommanahalli Zone</text>
+
+    <!-- Close Icon -->
+    <text x="660" y="38" font-size="18" fill="#94a3b8" cursor="pointer">✕</text>
+
+    <!-- Modal Body -->
+    <!-- Authority Metadata Box -->
+    <rect x="24" y="80" width="652" height="74" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="40" y="100" font-size="9.5" font-weight="700" fill="#64748b" letter-spacing="0.5">DESIGNATED CIVIC AUTHORITY</text>
+    <text x="40" y="118" font-size="13" font-weight="700" fill="#0f172a">BBMP Solid Waste Management, Zone Office (Bommanahalli Zone)</text>
+
+    <line x1="40" y1="126" x2="660" y2="126" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="40" y="142" font-size="9.5" font-weight="700" fill="#64748b" letter-spacing="0.5">ROUTING ADDRESS:</text>
+    <text x="160" y="142" font-size="11.5" font-family="monospace" font-weight="600" fill="#4f46e5">swm-zone@example-bbmp.gov.in</text>
+
+    <!-- Letter Header Bar -->
+    <text x="24" y="174" font-size="11" font-weight="700" fill="#475569" letter-spacing="0.5">FORMAL ESCALATION LETTER</text>
+    <rect x="560" y="160" width="116" height="22" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="572" y="175" font-size="11" font-weight="600" fill="#334155">📋 Copy Letter Text</text>
+
+    <!-- Monospace Letter Box -->
+    <rect x="24" y="188" width="652" height="275" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+
+    <g transform="translate(40, 212)" font-family="monospace" font-size="11" fill="#1e293b" letter-spacing="-0.2">
+      <text y="0" font-weight="700">Subject: URGENT ESCALATION: Unresolved Garbage Issue at Bommanahalli Zone</text>
+      <text y="24">To: The Executive Engineer / Nodal Officer,</text>
+      <text y="40">BBMP Solid Waste Management, Zone Office (Bommanahalli Zone)</text>
+      <text y="56">Bangalore, Karnataka</text>
+
+      <text y="88">Respected Sir/Madam,</text>
+      <text y="112">I am writing to formally escalate an unresolved civic grievance regarding</text>
+      <text y="128">garbage in 16th Main Road, Opposite Cauvery Bakery, Bommanahalli Zone</text>
+      <text y="144">(GPS: 12.93520, 77.62450).</text>
+
+      <text y="176">Issue Details: "Solid waste uncollected for over 5 days; spilling onto</text>
+      <text y="192">the main road causing severe sanitary hazards."</text>
+
+      <text y="224">To date, 42 residents in our neighborhood have flagged and supported</text>
+      <text y="240">this report through the CivicPulse community network.</text>
+
+      <text y="272">We respectfully request that your division inspect the site and initiate</text>
+      <text y="288">corrective action within 48 hours.</text>
+    </g>
+
+    <!-- Demo Simulation Notice -->
+    <rect x="24" y="480" width="652" height="48" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="40" y="502" font-size="13">⚠</text>
+    <text x="60" y="502" font-size="11" font-weight="700" fill="#92400e">Simulated for demo</text>
+    <text x="175" y="502" font-size="11" fill="#b45309">— in production this is sent automatically by a scheduled job after the real 3-4 day window.</text>
+    <text x="60" y="518" font-size="10.5" fill="#78350f">Integrates with municipal ticketing gateways and zone nodal emails.</text>
+
+    <!-- Modal Footer -->
+    <line x1="0" y1="544" x2="700" y2="544" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="560" y="560" width="116" height="34" rx="8" fill="#0f172a"/>
+    <text x="585" y="582" font-size="12" font-weight="700" fill="#ffffff">Close Dispatch</text>
+  </g>
+</svg>

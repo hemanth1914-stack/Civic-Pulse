@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="1000" height="480" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1000" height="480" fill="#f8fafc" rx="16"/>
+
+  <text x="40" y="44" font-size="18" font-weight="800" fill="#0f172a">CivicPulse Architecture &amp; Data Pipeline</text>
+  <text x="40" y="66" font-size="12" fill="#64748b">End-to-end flow from zero-login citizen reporting to automated municipal escalation.</text>
+
+  <!-- Flow 1: Client Application -->
+  <g transform="translate(40, 100)">
+    <rect width="260" height="340" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="0" y="0" width="260" height="38" rx="12" fill="#0f172a"/>
+    <rect x="0" y="24" width="260" height="14" fill="#0f172a"/>
+    <text x="16" y="24" font-size="12" font-weight="700" fill="#ffffff">1. Client Layer (Vite + React 19)</text>
+
+    <!-- Component list -->
+    <g transform="translate(16, 55)">
+      <rect width="228" height="52" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="12" y="22" font-size="11" font-weight="700" fill="#0f172a">Anonymous Identity Engine</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Device UUID · Citizen #XXXX</text>
+
+      <rect y="64" width="228" height="52" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="12" y="86" font-size="11" font-weight="700" fill="#0f172a">Leaflet GIS Geotagging</text>
+      <text x="12" y="102" font-size="10" fill="#64748b">OSM Tiles · Bangalore 8-Zone Mapping</text>
+
+      <rect y="128" width="228" height="52" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="12" y="150" font-size="11" font-weight="700" fill="#0f172a">In-Browser Image Pipeline</text>
+      <text x="12" y="166" font-size="10" fill="#64748b">Canvas Compression (800px Web JPEG)</text>
+
+      <rect y="192" width="228" height="52" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="12" y="214" font-size="11" font-weight="700" fill="#0f172a">Social Support Engine</text>
+      <text x="12" y="230" font-size="10" fill="#64748b">Repeat2 Haptic · Pop Bounce Animation</text>
+    </g>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M305 270 L 365 270" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="365,266 373,270 365,274" fill="#94a3b8"/>
+
+  <!-- Flow 2: Cloud Firestore -->
+  <g transform="translate(375, 100)">
+    <rect width="250" height="340" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="0" y="0" width="250" height="38" rx="12" fill="#0284c7"/>
+    <rect x="0" y="24" width="250" height="14" fill="#0284c7"/>
+    <text x="16" y="24" font-size="12" font-weight="700" fill="#ffffff">2. Real-Time Data Store</text>
+
+    <g transform="translate(16, 55)">
+      <rect width="218" height="74" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
+      <text x="12" y="22" font-size="11" font-weight="700" fill="#0369a1">Firestore "issues" Collection</text>
+      <text x="12" y="38" font-size="10" font-family="monospace" fill="#0284c7">category, lat, lng, zone</text>
+      <text x="12" y="52" font-size="10" font-family="monospace" fill="#0284c7">landmark, streetDetail</text>
+      <text x="12" y="66" font-size="10" font-family="monospace" fill="#0284c7">repostCount, status</text>
+
+      <rect y="86" width="218" height="60" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="12" y="108" font-size="11" font-weight="700" fill="#0f172a">Atomic Repost Aggregation</text>
+      <text x="12" y="124" font-size="10" fill="#64748b">arrayUnion(deviceId)</text>
+      <text x="12" y="138" font-size="10" fill="#64748b">increment(1) validation</text>
+
+      <rect y="158" width="218" height="60" rx="6" fill="#ecfdf5" stroke="#a7f3d0"/>
+      <text x="12" y="180" font-size="11" font-weight="700" fill="#065f46">Resolution State Tracker</text>
+      <text x="12" y="196" font-size="10" fill="#047857">status: "resolved"</text>
+      <text x="12" y="210" font-size="10" fill="#047857">resolvedAt: timestamp</text>
+    </g>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M630 270 L 690 270" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="690,266 698,270 690,274" fill="#94a3b8"/>
+
+  <!-- Flow 3: AI Escalation & Municipal Routing -->
+  <g transform="translate(700, 100)">
+    <rect width="260" height="340" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="0" y="0" width="260" height="38" rx="12" fill="#b45309"/>
+    <rect x="0" y="24" width="260" height="14" fill="#b45309"/>
+    <text x="16" y="24" font-size="12" font-weight="700" fill="#ffffff">3. Escalation &amp; Routing Engine</text>
+
+    <g transform="translate(16, 55)">
+      <rect width="228" height="68" rx="6" fill="#fffbeb" stroke="#fde68a"/>
+      <text x="12" y="22" font-size="11" font-weight="700" fill="#92400e">Gemini 2.5 Flash Drafter</text>
+      <text x="12" y="38" font-size="10" fill="#b45309">Formal legal-civic escalation prompt</text>
+      <text x="12" y="52" font-size="10" fill="#b45309">Auto-incorporates zone &amp; support tally</text>
+
+      <rect y="80" width="228" height="68" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="12" y="102" font-size="11" font-weight="700" fill="#0f172a">BBMP Municipal Zones</text>
+      <text x="12" y="118" font-size="10" fill="#64748b">Bommanahalli · Mahadevapura</text>
+      <text x="12" y="132" font-size="10" fill="#64748b">East, West, South, RR Nagar, etc.</text>
+
+      <rect y="160" width="228" height="58" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="12" y="182" font-size="11" font-weight="700" fill="#0f172a">Automated Dispatch Letter</text>
+      <text x="12" y="198" font-size="10" fill="#64748b">48hr SLA notice to zone nodal desk</text>
+    </g>
+  </g>
+</svg>
